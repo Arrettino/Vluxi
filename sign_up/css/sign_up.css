@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+}    
+html{
+  background-color: #707070;
+  
+}    
+p{
+  display: inline;
+}    
+
+a{
+  color: #707070;
+}
+
+
+.SignUp{
+  width: 440px;
+  height: 730px;
+  background-color: #d8c8a3;
+  position: relative;
+  left: 747px;
+  top: 115px;
+  text-align: center;
+  display: inline-block;
+}    
+
+.logo_conteiner{
+  margin-top: 34px;
+  position: relative;
+  display: inline-block;
+}    
+
+
+.logo{
+  display: inline-block;
+}    
+
+.icon_link{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}    
+
+.icon_conteiner{
+  margin-top: 39px;
+  display: flex;
+  position: relative;
+  left: 46px;
+}    
+.spacer{  
+  width: 18px;
+  display: inline-block;
+
+}
+
+.icon{
+  position: relative;
+}    
+
+.formulari{
+  margin-top: 40px;   
+  width: 380px; 
+  display: inline-block;
+}    
+.personalData-conteiner{
+  display: flex;
+}    
+.personalData{
+  height: 44px;
+  width: 148px;
+  border-radius: 6px;
+  border: solid 2px #707070;
+
+}    
+.spacer-data{
+  width: 4px;
+
+}    
+
+.userData{
+  margin-top: 14px; 
+  height: 44px;
+  width: 340px;
+  border-radius: 6px;
+  border: solid 2px #707070;
+      
+}    
+
+.text{
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 18px;
+
+}    
+
+.checkboxTerms-conteiner{
+  margin-top: 21px;
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+}    
+
+
+.checkboxEmail-conteiner{
+  margin-top: 11px;
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+}        
+
+.button{
+  margin-top: 37px;
+  width: 383px;
+  height: 70px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #6e5d36;
+  border-radius: 10px;
+  border-width: 0px;
+} 
+.policy{
+  margin-top: 12px;
+  display: block;
+  font-size: 16px;
+}
+
+.sign_in{
+  margin-top: 10px;
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+}    
+
+
