@@ -13,15 +13,18 @@ a{
     color: #707070;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 937px;
+}
+
 .login{
     width: 440px;
-    height: 590px;
+    height: 580px;
     background-color: #d8c8a3;
-    position: relative;
-    left: 747px;
-    top: 170px;
     text-align: center;
-    display: inline-block;
 }    
 
 .logo_conteiner{
@@ -47,11 +50,11 @@ a{
     margin-top: 39px;
     display: flex;
     position: relative;
-    left: 46px;
+    justify-content: center;
 }    
 .spacer{  
     width: 18px;
-    display: inline-block;
+    height: 0px;
 
 }
 
@@ -85,6 +88,7 @@ a{
     padding-left: 18px;
     padding-right: 18px;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }    
 
@@ -102,7 +106,7 @@ a{
 
 
 .button{
-    margin-top: 50px;
+    margin-top: 55px;
     width: 383px;
     height: 70px;
     font-size: 24px;
@@ -113,9 +117,10 @@ a{
 }  
 
 .policy{
-    margin-top: 12px;
+    margin-top: 5px;
     display: block;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sign_up{

@@ -13,16 +13,18 @@ a{
   color: #707070;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 937px;
+}
 
 .SignUp{
   width: 440px;
-  height: 730px;
+  height: 715px;
   background-color: #d8c8a3;
-  position: relative;
-  left: 747px;
-  top: 115px;
   text-align: center;
-  display: inline-block;
 }    
 
 .logo_conteiner{
@@ -48,10 +50,11 @@ a{
   margin-top: 39px;
   display: flex;
   position: relative;
-  left: 46px;
+  justify-content: center;
 }    
 .spacer{  
   width: 18px;
+  height: 0px;
   display: inline-block;
 
 }
@@ -89,7 +92,7 @@ a{
       
 }    
 
-.text{
+.datatext{
   padding-left: 18px;
   padding-right: 18px;
   font-size: 18px;
@@ -113,8 +116,9 @@ a{
   cursor: pointer;
 }        
 
+
 .button{
-  margin-top: 37px;
+  margin-top: 45px;
   width: 383px;
   height: 70px;
   font-size: 24px;
@@ -123,15 +127,9 @@ a{
   border-radius: 10px;
   border-width: 0px;
 } 
-.policy{
-  margin-top: 12px;
-  display: block;
-  font-size: 16px;
-}
 
 .sign_in{
-  margin-top: 10px;
-  display: block;
+  margin-top: 15px;
   color: #ffffff;
   font-size: 16px;
 }    
